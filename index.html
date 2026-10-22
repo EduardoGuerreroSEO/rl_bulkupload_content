@@ -21,9 +21,9 @@
   </script>
 
   <!-- Libs -->
-  <script src="./vendor/xlsx.full.min.js"></script>
-  <script src="./vendor/jszip.min.js"></script>
-  <script src="./vendor/FileSaver.min.js"></script>
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 
   <!-- Prism -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css" rel="stylesheet"/>
@@ -100,8 +100,8 @@
           </div>
           <div>
             <label for="library-id" class="block text-lg font-semibold text-rl-navy mb-3">Content Library</label>
-            <input id="library-id" type="text" class="w-full border rounded-lg px-3 py-3" placeholder="Library ID (optional)" />
-            <p class="text-xs text-gray-500 mt-2">Leave blank for the selected site's private library, matching your export. For a shared library, enter its exact ID.</p>
+            <input id="library-id" type="text" class="w-full border rounded-lg px-3 py-3" value="RalphLauren_EU_Library" placeholder="Library ID (optional)" />
+            <p class="text-xs text-gray-500 mt-2">Defaults to RalphLauren_EU_Library. Edit this field to target another shared library, or clear it to target the selected site's private library.</p>
           </div>
         </div>
 
@@ -616,7 +616,7 @@
 
             resolve(normalised);
           }catch(err){
-            reject(new Error('Failed to parse the Excel file.'));
+            reject(new Error(typeof XLSX === 'undefined' ? 'The Excel library did not load. Check your internet connection and reload the page.' : `Could not read Excel: ${err.message || String(err)}`));
           }
         };
 
