@@ -1,0 +1,104 @@
+{
+  "EN": [
+    {"Code":"UK","Lang":"en-GB","Currency":"£"},
+    {"Code":"CH","Lang":"en-CH","Currency":"£"},
+    {"Code":"IE","Lang":"en-IE","Currency":"€"},
+    {"Code":"NL","Lang":"en-NL","Currency":"€"},
+    {"Code":"BE","Lang":"en-BE","Currency":"€"},
+    {"Code":"PT","Lang":"en-PT","Currency":"€"},
+    {"Code":"AD","Lang":"en-AD","Currency":"€"},
+    {"Code":"AL","Lang":"en-AL","Currency":"£"},
+    {"Code":"AT","Lang":"en-AT","Currency":"€"},
+    {"Code":"BA","Lang":"en-BA","Currency":"£"},
+    {"Code":"BG","Lang":"en-BG","Currency":"€"},
+    {"Code":"CY","Lang":"en-CY","Currency":"€"},
+    {"Code":"CZ","Lang":"en-CZ","Currency":"€"},
+    {"Code":"DK","Lang":"en-DK","Currency":"£"},
+    {"Code":"EE","Lang":"en-EE","Currency":"€"},
+    {"Code":"FI","Lang":"en-FI","Currency":"€"},
+    {"Code":"GR","Lang":"en-GR","Currency":"€"},
+    {"Code":"HR","Lang":"en-HR","Currency":"€"},
+    {"Code":"HU","Lang":"en-HU","Currency":"€"},
+    {"Code":"IS","Lang":"en-IS","Currency":"£"},
+    {"Code":"LI","Lang":"en-LI","Currency":"£"},
+    {"Code":"LT","Lang":"en-LT","Currency":"€"},
+    {"Code":"LU","Lang":"en-LU","Currency":"€"},
+    {"Code":"LV","Lang":"en-LV","Currency":"€"},
+    {"Code":"MD","Lang":"en-MD","Currency":"€"},
+    {"Code":"ME","Lang":"en-ME","Currency":"€"},
+    {"Code":"MT","Lang":"en-MT","Currency":"€"},
+    {"Code":"PL","Lang":"en-PL","Currency":"£"},
+    {"Code":"RO","Lang":"en-RO","Currency":"€"},
+    {"Code":"SE","Lang":"en-SE","Currency":"€"},
+    {"Code":"SI","Lang":"en-SI","Currency":"€"},
+    {"Code":"SK","Lang":"en-SK","Currency":"£"},
+    {"Code":"AM","Lang":"en-AM","Currency":"£"},
+    {"Code":"AZ","Lang":"en-AZ","Currency":"£"},
+    {"Code":"CV","Lang":"en-CV","Currency":"£"},
+    {"Code":"DZ","Lang":"en-DZ","Currency":"£"},
+    {"Code":"ET","Lang":"en-ET","Currency":"£"},
+    {"Code":"GI","Lang":"en-GI","Currency":"£"},
+    {"Code":"IL","Lang":"en-IL","Currency":"£"},
+    {"Code":"IN","Lang":"en-IN","Currency":"£"},
+    {"Code":"KG","Lang":"en-KG","Currency":"£"},
+    {"Code":"NG","Lang":"en-NG","Currency":"£"},
+    {"Code":"NO","Lang":"en-NO","Currency":"£"},
+    {"Code":"PK","Lang":"en-PK","Currency":"£"},
+    {"Code":"TM","Lang":"en-TM","Currency":"£"},
+    {"Code":"TN","Lang":"en-TN","Currency":"£"},
+    {"Code":"TR","Lang":"en-TR","Currency":"£"},
+    {"Code":"AR","Lang":"en-AR","Currency":"£"},
+    {"Code":"BO","Lang":"en-BO","Currency":"£"},
+    {"Code":"BR","Lang":"en-BR","Currency":"£"},
+    {"Code":"CL","Lang":"en-CL","Currency":"£"},
+    {"Code":"CO","Lang":"en-CO","Currency":"£"},
+    {"Code":"EC","Lang":"en-EC","Currency":"$"},
+    {"Code":"GP","Lang":"en-GP","Currency":"€"},
+    {"Code":"GY","Lang":"en-GY","Currency":"£"},
+    {"Code":"PA","Lang":"en-PA","Currency":"$"},
+    {"Code":"PY","Lang":"en-PY","Currency":"£"},
+    {"Code":"PE","Lang":"en-PE","Currency":"£"},
+    {"Code":"UY","Lang":"en-UY","Currency":"£"},
+    {"Code":"GE","Lang":"en-GE","Currency":"£"},
+    {"Code":"GF","Lang":"en-GF","Currency":"€"},
+    {"Code":"MA","Lang":"en-MA","Currency":"£"},
+    {"Code":"UZ","Lang":"en-UZ","Currency":"£"},
+    {"Code":"ES","Lang":"en-ES","Currency":"€"},
+    {"Code":"FR","Lang":"en-FR","Currency":"€"},
+    {"Code":"IT","Lang":"en-IT","Currency":"€"},
+    {"Code":"DE","Lang":"en-DE","Currency":"€"}
+  ],
+  "NL": [
+    {"Code":"BE","Lang":"nl-BE","Currency":"€"},
+    {"Code":"NL","Lang":"nl-NL","Currency":"€"}
+  ],
+  "FR": [
+    {"Code":"BE","Lang":"fr-BE","Currency":"€"},
+    {"Code":"CH","Lang":"fr-CH","Currency":"€"},
+    {"Code":"FR","Lang":"fr-FR","Currency":"€"},
+    {"Code":"LU","Lang":"fr-LU","Currency":"€"}
+  ],
+  "ES": [
+    {"Code":"ES","Lang":"es-ES","Currency":"€"}
+  ],
+  "PT": [
+    {"Code":"PT","Lang":"pt-PT","Currency":"€"}
+  ],
+  "DE": [
+    {"Code":"AT","Lang":"de-AT","Currency":"€"},
+    {"Code":"CH","Lang":"de-CH","Currency":"CHF"},
+    {"Code":"DE","Lang":"de-DE","Currency":"€"},
+    {"Code":"EE","Lang":"de-EE","Currency":"€"},
+    {"Code":"LV","Lang":"de-LV","Currency":"€"},
+    {"Code":"SK","Lang":"de-SK","Currency":"€"}
+  ],
+  "IT": [
+    {"Code":"IT","Lang":"it-IT","Currency":"€"}
+  ],
+  "PL": [
+    {"Code":"PL","Lang":"pl-PL","Currency":"PLN"}
+  ],
+  "SE": [
+    {"Code":"SE","Lang":"sv-SE","Currency":"SEK"}
+  ]
+}
